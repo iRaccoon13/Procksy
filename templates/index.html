@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="/setprocksy/" method="post">
+    <label>Enter the url: <br>
+      <input type="url" placeholder="https://example.com/" name="rooturl"
+         oninvalid='this.setCustomValidity("URL needs to follow this pattern: https://example.com/")'
+         oninput="this.setCustomValidity('')" pattern="https://.*/" required /></label>
+    <p>
+      Remember to include the protocol (https://) and the trailing slash (/).
+    </p>
+    <button>Submit</button>
+  </form>
+</body>
+</html>
