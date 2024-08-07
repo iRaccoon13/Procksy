@@ -163,6 +163,7 @@ cython_debug/
 
 poetry.lock
 pyproject.toml
-.replit
+# .replit
+# (Commented for users hosting on replit)
 .upm/
 .pythonlibs/
